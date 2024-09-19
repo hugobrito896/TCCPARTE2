@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: chartreuse;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background-color: rgb(85, 170, 0);
+    width: 500px;
+    box-shadow: rgba(149, 240, 46, 0.795) 5px 5px, rgba(149, 240, 46, 0.795) 10px 10px, rgba(149, 240, 46, 0.795) 15px 15px rgba(149, 240, 46, 0.795) 10px 10px, 20px 20px, rgba(149, 240, 46, 0.795) 10px 10px, 25px 25px;
+}
+
+section h2 {
+    color: white;
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+
+section form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form label {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+form input {
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+   transition-duration: all 1s;
+}
+form input:focus{
+    border-radius: 16px;
+}
+form textarea{
+    padding: 10px;
+    outline: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 1s ;
+
+}
+form textarea:focus{
+    border-radius: 16px;
+}
+form button{
+    pad: 15px;
+    font-size: 16px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    transition: all 1s;
+}
+form button:hover{
+    background-color: white;
+    color: white;
+    border-radius: 16px;
+
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(2, 238, 22);
+    flex-direction: column;
+    background: rgb(116, 255, 3);
+}
+.text{
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+}
+.p{
+    color: rgb(0, 0, 0);
+    margin-bottom: 50px;
+}
+.B{
+    padding: 15px 55px;
+    background: rgb(9, 114, 9);
+    text-decoration: none;
+    color: black;
+    transition: all 1s;
+   
+}
+.B:hover{
+    border-radius: 16px;
+    
+}

@@ -1,0 +1,90 @@
+/* Estilo geral */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f5f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+/* Estilo da seção */
+section {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 500px;
+}
+
+/* Estilo do título */
+h2 {
+    color: #558b6e;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilo dos rótulos */
+label {
+    color: #558b6e;
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Estilo dos campos de entrada */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 95%;
+    max-width: 95%;
+    max-height: 100px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #c1d9c1;
+    border-radius: 5px;
+    background-color: #e7f0e7;
+    font-size: 14px;
+    color: #4d6656;
+    outline: none;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #558b6e;
+}
+
+/* Estilo do botão */
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #558b6e;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #6da681;
+}
+
+/* Animação de transição */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY();
+    }
+}

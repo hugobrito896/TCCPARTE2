@@ -1,0 +1,47 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color:white;
+    font-size: 20px;
+}
+.container {
+    display: grid;
+    place-items: center; /* Centraliza horizontal e verticalmente */
+    height: 100vh; /* Usa a altura total da viewport */
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px;
+}
+.meu-botao {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto; /* Centraliza horizontalmente com margens automáticas */
+    padding: 10px 20px;
+}
+.button{
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.button:hover{
+    transition-duration: 0.5s;
+    background-color: #81ff92;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px;
+}
+.div{
+   font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: center;
+}
